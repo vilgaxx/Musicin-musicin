@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", async () => {
-  const categoryContainer = document.querySelector(".card-container"); // Category cards
-  const songList = document.querySelector(".song-list ul"); // Left sidebar song list
-  const songInfo = document.querySelector(".song-info"); // Current song info
+  const categoryContainer = document.querySelector(".card-container"); 
+  const songList = document.querySelector(".song-list ul"); 
+  const songInfo = document.querySelector(".song-info"); 
   const playBtn = document.getElementById("play");
   const nextBtn = document.getElementById("next");
   const prevBtn = document.getElementById("previous");
