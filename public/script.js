@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       card.classList.add("card");
       card.dataset.folder = category;
       card.innerHTML = `
-                <img src="songs/${category.toLowerCase()}/cover.jpg" alt="${category}" class="thumbnail">
+                <img src="songs/${category}/cover.jpg" alt="${category}" class="thumbnail">
                 <img class="thumbnail-play-btn" src="svg/playlistplay.svg" alt="play-btn">
                 <h2><label>${category}</label></h2>
                 <p><label>Listen to the best ${category} tracks!</label></p>
