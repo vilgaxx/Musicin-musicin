@@ -1,0 +1,319 @@
+@media(max-width : 430px)
+{
+    /* Left */
+    .left
+    {
+        width: 44%;
+        position: absolute;
+        left: -100%;
+
+        transition: all .5s;
+        z-index: 1;
+    }
+
+    .cross
+    {
+        display: inline;
+        height: 20px;
+
+        position: absolute;
+        right: 0px;
+    }
+
+
+    .logo img
+    {
+        height: 10vh;
+        margin: 0px;
+    }
+
+    .first-half
+    {
+        color: rgb(114, 189, 226);
+        font-size: 18px;
+    }
+    
+    .other-half
+    {
+        color: rgb(126, 10, 155);
+        font-size: 18px;
+    }
+
+    .search-icon
+    {
+        font-size: 12px;
+    }
+
+    .search-icon img
+    {
+        height: 2vh;
+    }
+
+    
+    .library
+    { 
+        font-size: 10px;
+    }
+    
+    /* Song List */
+    .song-list
+    {
+        margin: 10px;
+        max-height: 35vh;
+    }
+    
+    .song-list li
+    {
+    
+        max-height: 3vh;
+        max-width: 28vw;
+    
+        margin: 2vh 2vh 3vh 2vh;
+
+    }
+    
+    .music-btn
+    {
+        height: 10px; 
+    }
+
+    .play-icon
+    {
+        height: 10px;
+    }
+
+    .song-list .song
+    {
+        min-width: 100px;
+        margin: 10px 8px;
+        
+        font-size: 8px;
+    }
+
+     */
+    /* left Footer */
+    .left-footer
+    {
+        display: flex;
+        gap: 15px;
+    
+        font-size: 12px;
+    
+        position: absolute;
+        bottom: 0px;
+    
+        padding: 50px 15px;
+    }
+    
+    .left-footer a
+    {
+        color: grey;
+        
+        text-decoration: none;
+    }
+    
+    /* Right */
+    .right
+    {
+        width: 100%;
+    }
+
+    .hamburger
+    {
+        display: inline;
+
+    }
+
+    /* Playlist And Card Designing */
+    .playlist-header
+    {
+        margin: 0px 15px;
+        padding: 15px;
+
+        font-size: 15px;
+    }
+
+    .musicin-playlist
+    {   
+        margin: 5px 15px;
+    }
+
+    .card-container
+    {
+        height: 46vh;
+        margin: 10px;
+
+        overflow-x: hidden;
+    }
+
+    .card
+    {
+        height: 38vh;
+        width: 55vw;
+        
+        margin: 2vw 4vw;
+    }
+
+    .card:hover
+    {      
+        .thumbnail-play-btn
+        {
+            height: 22px;
+        }
+    }
+
+    .thumbnail
+    {
+        height: 28vh;
+        width: 55vw;
+    }
+
+    .thumbnail-play-btn
+    {
+        height: 20px;
+        bottom: 32%;
+    }
+
+    .card h2
+    {
+        font-size: 15px;
+    }
+
+    .card p
+    {
+        font-size: 11px;
+    }
+
+
+
+    /* Playbar */
+    .playbar
+    {   
+        margin: 20px 30px;
+
+        height: 12vh;
+        width: 82vw;
+
+        font-size: 12px;
+    }
+
+    .song-info
+    {
+        min-width: 45vw;
+        left: 3vw;
+
+        font-size: 10px;
+
+        overflow: hidden;
+    }
+
+    .song-duration
+    {
+        bottom: 7.5vh;
+
+        width: 20vw;
+        right: 8vw;
+
+        font-size: 10px;
+    }
+
+    .song-btns
+    {
+        bottom: 25%;
+        left: 20%;
+
+        width: 50vw;
+    }
+
+    .playbar-btns:hover
+    {
+        height: 17px;
+        transition: 0.2s;
+    }
+
+    .playbar-btns
+    {
+
+        height: 15px;
+        width: 40px;
+        margin: 0px ;
+
+        cursor: pointer;
+    }
+
+    #volume-img
+    {
+        height: 15px;
+        margin: 0px 5px;
+    }
+
+    #volume
+    {
+        width: 50px;
+        cursor: pointer;
+    }
+
+    .volume-bar
+    {
+        align-items: center;
+        margin-top: -5px ;
+    }
+
+    .slider 
+    {
+        -webkit-appearance: none;
+
+        width: 100%;
+        height: 5px;
+
+        opacity: 1;
+
+        border-radius: 10px;
+
+        -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+        transition: opacity .2s;
+    }
+
+    .slider::-webkit-slider-thumb 
+    {
+        -webkit-appearance: none; /* Override default look */
+
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+
+        background: dodgerblue;
+        cursor: pointer;
+    }
+
+
+    .seekbar
+    {
+        bottom: 2px;
+        left: -2%;
+
+        min-height: 3px;
+        min-width: 55vw;
+    }
+
+    .seekbar:hover
+    {
+        min-height: 4px;
+    }
+
+    .circle
+    {
+        position: absolute;
+        bottom: -4px;
+
+        min-height: 10px;
+        min-width: 10px;
+    }
+
+    .circle:hover
+    {
+        height: 11px;
+        width: 11px;
+    }
+
+}   
