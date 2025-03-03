@@ -4,7 +4,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 
 const app = e();
-const port = 300;
+const port = 3000;
 app.use(e.static("public"));
 
 const __filename = fileURLToPath(import.meta.url);
